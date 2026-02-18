@@ -12,7 +12,7 @@ const PRODUCTS = [
       category: "Cuarzos",
       featured: true,
       status: "Disponible",
-      img: "img/cuarzo_cristalino_punta.webp",
+      img: "./img/cuarzo_cristalino_punta.webp",
       note: "Transparente, excelente energía."
     },
   
@@ -25,7 +25,7 @@ const PRODUCTS = [
       category: "Fluoritas",
       featured: true,
       status: "Disponible",
-      img: "img/cuarzo_cristalino_punta.webp",
+      img: "./img/cuarzo_cristalino_punta.webp",
       note: "Colores intensos y bien definidos."
     },
   
@@ -38,7 +38,7 @@ const PRODUCTS = [
       category: "Geodas",
       featured: false,
       status: "Pocas piezas",
-      img: "img/cuarzo_cristalino_punta.webp",
+      img: "./img/cuarzo_cristalino_punta.webp",
       note: "Interior brillante."
     },
   
@@ -51,7 +51,7 @@ const PRODUCTS = [
       category: "Pipas de Cuarzo",
       featured: true,
       status: "Disponible",
-      img: "img/cuarzo_cristalino_punta.webp",
+      img: "./img/cuarzo_cristalino_punta.webp",
       note: "Tallada a mano."
     },
   
@@ -64,7 +64,7 @@ const PRODUCTS = [
       category: "Bolas Pulidas",
       featured: false,
       status: "Disponible",
-      img: "img/cuarzo_cristalino_punta.webp",
+      img: "./img/cuarzo_cristalino_punta.webp",
       note: "Superficie espejo."
     },
   
@@ -77,7 +77,7 @@ const PRODUCTS = [
       category: "Pulseras",
       featured: false,
       status: "Disponible",
-      img: "img/cuarzo_cristalino_punta.webp",
+      img: "./img/cuarzo_cristalino_punta.webp",
       note: "Elástico resistente."
     },
   
@@ -90,7 +90,7 @@ const PRODUCTS = [
       category: "Calcitas",
       featured: false,
       status: "Disponible",
-      img: "img/cuarzo_cristalino_punta.webp",
+      img: "./img/cuarzo_cristalino_punta.webp",
       note: "Cristalización natural."
     }
   
