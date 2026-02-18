@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Maval Cuarzos y Minerales</title>
+  <meta name="description" content="Minerales, cuarzos, geodas y piezas únicas. Pide por WhatsApp." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__row">
+      <div>
+        <h1 class="brand">Cuarzos y Minerales</h1>
+        <p class="tagline">Minerales • Cuarzos • Piezas únicas • Pedido por WhatsApp</p>
+      </div>
+
+      <div class="header__actions">
+        <a class="btn btn--ghost" href="#catalogo">Ver catálogo</a>
+        <a class="btn" id="btnWhatsTop" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero__card">
+        <h2>Encuentra la pieza que te elige</h2>
+        <p>
+          En <strong>Maval Gemstore</strong> reunimos cuarzos, minerales y piezas únicas
+          para intención, armonía y colección. Elige tu pieza y te ayudamos a armar el pedido por WhatsApp.
+        </p>
+  
+        <div class="hero__controls">
+          <input id="searchInput" class="input" type="search" placeholder="Buscar (ej. amatista, fluorita, geoda, pipa)..." />
+          <select id="categorySelect" class="input">
+            <option value="all">Todas las categorías</option>
+          </select>
+          <select id="sortSelect" class="input">
+            <option value="featured">Orden: Recomendados</option>
+            <option value="priceAsc">Precio: menor a mayor</option>
+            <option value="priceDesc">Precio: mayor a menor</option>
+            <option value="nameAsc">Nombre: A → Z</option>
+          </select>
+        </div>
+  
+        <div class="intentBar">
+          <span class="muted small">Intenciones rápidas:</span>
+          <div class="intentBar__chips">
+            <button class="chip" data-intent="calma">Calma</button>
+            <button class="chip" data-intent="proteccion">Protección</button>
+            <button class="chip" data-intent="claridad">Claridad</button>
+            <button class="chip" data-intent="amor">Amor</button>
+            <button class="chip" data-intent="abundancia">Abundancia</button>
+          </div>
+          <p class="muted small" style="margin:10px 0 0;">
+            *Las propiedades energéticas se comparten como tradición cultural/espiritual.
+          </p>
+        </div>
+  
+        <div class="cartBar">
+          <div>
+            <strong>Carrito:</strong> <span id="cartCount">0</span> productos
+          </div>
+          <div class="cartBar__buttons">
+            <button class="btn btn--ghost" id="btnClearCart">Vaciar</button>
+            <button class="btn" id="btnCheckout">Enviar pedido por WhatsApp</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section id="catalogo" class="section">
+      <h3>Catálogo</h3>
+      <p class="muted">Piezas seleccionadas • Stock limitado • Pregunta por mayoreo</p>
+      <div id="productsGrid" class="grid"></div>
+      <p class="muted small">
+        *Fotos referenciales. Tonos y vetas pueden variar (cada pieza es única).
+      </p>
+    </section>
+  
+    <section class="section">
+      <h3>Guía espiritual (rápida)</h3>
+      <div class="guide">
+        <div class="guide__card">
+          <h4>Cómo elegir</h4>
+          <p class="muted">
+            Elige por intención (calma, protección, claridad…) o por intuición:
+            la pieza que más te llama suele ser la correcta.
+          </p>
+        </div>
+        <div class="guide__card">
+          <h4>Limpieza energética</h4>
+          <p class="muted">
+            Puedes limpiarlas con humo (incienso), sonido (campana), o dejarlas en
+            un lugar seguro bajo luz lunar.
+          </p>
+        </div>
+        <div class="guide__card">
+          <h4>Intención</h4>
+          <p class="muted">
+            Sostén tu pieza, respira profundo y formula una intención clara.
+            Lo simple funciona: “calma”, “enfoque”, “protección”.
+          </p>
+        </div>
+      </div>
+    </section>
+  
+    <section class="section">
+      <h3>Cómo comprar</h3>
+      <ol class="steps">
+        <li>Elige tus piezas y agrégalas al carrito.</li>
+        <li>Presiona “Enviar pedido por WhatsApp”.</li>
+        <li>Confirmamos stock, envío y forma de pago contigo.</li>
+      </ol>
+    </section>
+  
+    <section class="section">
+      <h3>Contacto</h3>
+      <p class="muted">
+        ¿Buscas una pieza específica o un set por intención (regalo, altar, colección)?
+        Escríbenos por WhatsApp y te armamos opciones.
+      </p>
+      <a class="btn" id="btnWhatsBottom" target="_blank" rel="noopener">Abrir WhatsApp</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__row">
+      <span class="muted">© <span id="year"></span> Maval Cuarzos y Minerales</span>
+      <span class="muted small">Hecho con ❤️</span>
+    </div>
+  </footer>
+
+  <script src="products.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
