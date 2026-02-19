@@ -55,26 +55,26 @@ const PRODUCTS = [
       note: "Tallada a mano."
     },
   
-    // === BOLAS PULIDAS ===
+    // === ESFERAS PULIDAS ===
     {
       id: "bp-001",
-      name: "Bola Pulida de Obsidiana",
+      name: "Esfera Pulida de Obsidiana",
       price: 520,
       currency: "MXN",
-      category: "Bolas Pulidas",
+      category: "Esferas Pulidas",
       featured: false,
       status: "Disponible",
       img: "./img/cuarzo_cristalino_punta.webp",
       note: "Superficie espejo."
     },
   
-    // === PULSERAS ===
+    // === COLLAR AMATISTA ===
     {
       id: "pl-001",
-      name: "Pulsera de Amatista",
-      price: 180,
+      name: "Collar de Amatista",
+      price: 360,
       currency: "MXN",
-      category: "Pulseras",
+      category: "Collares",
       featured: false,
       status: "Disponible",
       img: "./img/cuarzo_cristalino_punta.webp",
@@ -85,14 +85,26 @@ const PRODUCTS = [
     {
       id: "cl-001",
       name: "Calcita Diente de Perro",
-      price: 390,
+      price: 650,
       currency: "MXN",
       category: "Calcitas",
       featured: false,
       status: "Disponible",
       img: "./img/cuarzo_cristalino_punta.webp",
       note: "Cristalización natural."
-    }
-  
+    },
+      // === PIRITA ===
+    {
+      id: "pr-001",
+      name: "Pirita Natural",
+      price: 180,
+      currency: "MXN",
+      category: "Cuarzos",
+      featured: true,
+      status: "Disponible",
+      tags: ["abundancia", "proteccion", "prosperidad", "dinero"],
+      img: "./img/pirita-natural.jpg",
+      note: "Asociada con abundancia y protección energética."
+    },
   ];
   
